@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body class="">
+    <section class="header">
+        <div class="container">
+		<header>
+			<button class="hamburger">&#9776;</button>
+			<button class="cross">&#735;</button>
+		</header>	
+            <div class="header__top">
+                <div class="header__top-logo">
+                    <a href="#"><img src="assets/img/logo.png" alt="logo"></a>
+                </div>
+                <nav class="header__top_menu">
+                    <ul class="menu">
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">Услуги</a></li>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__content">
+                <h1>Комплексное продвижение<br> бизнеса в интернете</h1>
+                <h3>Ваш удаленный маркетинговый отдел "под ключ"</h3>
+                <button class="btn header__top_btn" type="button" data-popup="popup-order">отправить заявку</button>
+                
+            </div>
+        </div>
+    </section>
+    <section class="feature">
+        <div class="container">
+            <div class="feature__inner">
+                <div class="feature__elem">
+                    <img src="assets/img/content.png" alt="icon">
+                    <h3>Маркетинговая стратегия</h3>
+                    <p>Разрабатываем маркетинговые стратегии, которые позволяют бизнесу устойчиво развиваться.</p>
+                </div>
+                <div class="feature__elem">
+                    <img src="assets/img/graphic-design.png" alt="icon">
+                    <h3>Разработка сайта</h3>
+                    <p>Разработаем удобный для пользователя сайт, который решит задачи бизнеса и принесет прибыль.</p>
+                </div>
+                <div class="feature__elem">
+                    <img src="assets/img/analysis.png" alt="icon">
+                    <h3>SEO продвижение</h3>
+                    <p>Оптимизацию проводим для сайтов с услугами, интернет-магазинов любого возраста и тематики.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services">
+        <div class="container">
+            <div class="services__header">
+                <h2>Лучшие услуги для <span class="red">быстрого роста</span></h2>
+                <p>Полное погружение в проект и подбор оптимального набора услуг и инструментов индивидуально для вас</p>
+            </div>
+            <div class="services__content">
+                <div class="services__content-elem">
+                    <img src="assets/img/settings.png" alt="icon">
+                    <h3>Стратегия</h3>
+                    <p>Разрабатываем коммуникационные стратегии, которые позволяют бизнесу устойчиво развиваться.
+                    </p>
+                </div>
+                <div class="services__content-elem">
+                    <img src="assets/img/idea.png" alt="icon">
+                    <h3>Маркетинг</h3>
+                    <p>Разрабатываем нестандартные решения для бизнеса, которые обязательно решают клиентскую задачу.</p>
+                </div>
+                <div class="services__content-elem">
+                    <img src="assets/img/graphic.png" alt="icon">
+                    <h3>Технологии</h3>
+                    <p>Внедряем передовые, проверенные и работающие технологии, которые реально работают.</p>
+                </div>
+                <div class="services__content-elem">
+                    <img src="assets/img/laptop.png" alt="icon">
+                    <h3>Продажи</h3>
+                    <p>Создаем и настраиваем отдел продаж, который приносит прибыль и не требует ежедневного контроля</p>
+                </div>
+                <div class="services__content-elem">
+                    <img src="assets/img/file.png" alt="icon">
+                    <h3>Бренд</h3>
+                    <p>Мы разрабатываем бренд стратегии, которые позволяют бизнесу устойчиво развиваться.</p>
+                </div>
+                <div class="services__content-elem">
+                    <img src="assets/img/user.png" alt="icon">
+                    <h3>SEO</h3>
+                    <p>Аудит, семантика, оптимизация HTML, написание контента, покупка ссылок, написание ТЗ программистам.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__inner-wrap">
+                    <a href="#"><img src="assets/img/logo.png" alt="logo"></a>
+                    <a href="tel:+79999999999">+7(999)999-99-99</a>
+                </div>
+                <div class="footer__inner-wrap">
+                    <ul class="menu">
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">Услуги</a></li>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer__inner-wrap">
+                    <p>© Kallyas © 2004-2020 OLAN AT&S Ltd.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="popup popup-order">
+        <div class="popup__wrapper">
+            <div class="popup__inner">
+                <div class="popup__content">
+                    <button class="btn__close popup__btn-close"></button>
+                    <h3 class="form__title">Отправить заявку</h3>
+                    <form class="form form-send">
+                        <input class="form__input" type="text" name="имя" placeholder="Имя" required>
+                        <input class="form__input" type="tel" name="телефон" placeholder="Телефон" pattern="[0-9]{11}"
+                        required>
+                        <input class="form__input" type="text" name="адрес" placeholder="Адрес" required>
+                        <label for="var1">
+                            <input class="form__input" id="var1" type="checkbox" name="вариант1" value="off">
+                            Вариант заказа №1
+                        </label>
+                        <label for="var2">
+                            <input class="form__input" id="var2" type="checkbox" name="вариант2" value="off">
+                            Вариант заказа №2
+                        </label>
+                        <label for="var3">
+                            <input class="form__input" id="var3" type="checkbox" name="вариант3" value="off">
+                            Вариант заказа №3
+                        </label>
+                        <button class="btn form__btn" type="submit">Отправить заявку</button>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup popup-thanks">
+        <div class="popup__wrapper">
+            <div class="popup__inner">
+                <div class="popup__content">
+                    <button class="btn-close popup__btn-close popup-close"></button>
+                    <h3 class="form__title success">Ваша заявка успешно отправлена!</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup popup-error">
+        <div class="popup__wrapper">
+            <div class="popup__inner">
+                <div class="popup__content">
+                    <button class="btn-close popup__btn-close popup-close"></button>
+                    <h3 class="form__title error">Произошла ошибка!</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/popup.js"></script>
+	<script src="assets/js/form.js"></script>
+</body>
+</html>
