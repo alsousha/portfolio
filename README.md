@@ -29,3 +29,8 @@ Since 2017 I have been studying full stack.
 5. [Gidro](https://alsu.co.il/gidro/), [catalog](https://alsu.co.il/gidro/product-categories/dvigateli/), [single product](https://alsu.co.il/gidro/products/dvigatel-8/) - Wordpress, HTML/CSS/JQuery
 6. [Pizza](https://alsu.co.il/pizza-time/) - Wordpress, HTML/CSS/JS
 7. [Sport](https://alsu.co.il/sport/) - Wordpress, HTML/CSS/JS
+
+### My contacts
+* tel: +972 53 954-0139
+* alsousha21@gmail.com
+* linkedin.com/in/alsu-bogdanov-61a301202
