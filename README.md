@@ -22,7 +22,7 @@ Since 2017 I have been studying full stack.
 
 1. [Kallyas](https://alsu.co.il/sites/kallyas/index.html) - static page with HTML/CSS/JS; frontend
 1. [Brands](https://alsu.co.il/sites/brand/index.html), [catalog](https://alsu.co.il/sites/brand/product.html), [single product](https://alsu.co.il/sites/brand/single.html) - static pageы with HTML/CSS/JS; frontend
-1. [Gidro](https://alsu.co.il/sites/gidrotsikly/index.html), (catalog)[https://alsu.co.il/sites/gidrotsikly/catalog.html], (single product)[https://alsu.co.il/sites/gidrotsikly/product.html] - static pages with HTML/SCC/JQuery; frontend
+1. [Gidro](https://alsu.co.il/sites/gidrotsikly/index.html), [catalog](https://alsu.co.il/sites/gidrotsikly/catalog.html), [single product](https://alsu.co.il/sites/gidrotsikly/product.html) - static pages with HTML/SCC/JQuery; frontend
 2. [T-shirt](https://alsu.co.il/sites/t_shirt/index.html) static page with HTML/CSS/JS; frontend
 3. [Pizza](https://alsu.co.il/sites/pizza-time_html/index.html) static page with HTML/CSS/JS; frontend
 4. [Yoga](https://alsu.co.il/sites/yoga-proj/index.html), [about](https://alsu.co.il/sites/yoga-proj/about.html), [classes](https://alsu.co.il/sites/yoga-proj/classes.html), [contact](https://alsu.co.il/sites/yoga-proj/contact.html) static page with HTML/CSS/JS; frontend
