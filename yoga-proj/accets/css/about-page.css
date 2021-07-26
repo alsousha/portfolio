@@ -1,0 +1,150 @@
+/* #region whoWe */
+.whoWe-title{
+    display: none;
+}
+.whoWe__wrap {
+    margin-top: -5rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 10rem;
+}
+.whoWe-dicr{
+    max-width: 55rem;
+}
+
+.whoWe-dicr p{
+    margin-bottom: 3rem;
+}
+.whoWe-dicr a{
+    color: var(--accent);
+}
+.whoWe-dicr a:hover{
+    text-decoration: underline;
+}
+
+/* #endregion whoWe */
+/*#region comment-banner*/
+.comment-banner{
+    background-image: url(../img/bg2.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+}
+.comment-banner__wrap{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 40rem;
+}
+.comment-banner p{
+    font-size: 1.9rem;
+    font-style: italic;
+    max-width: 60rem;
+    margin-bottom: 3rem;
+}
+.comment-banner h4{
+    font-size: 1.4rem;
+    color: white;
+    
+}
+/*#endregion comment-banner*/
+/*#region classes-about*/
+.classes-about{
+    position: relative;
+}
+a.classes-card {
+    margin-bottom: 4rem;
+}
+.classes-about::before{
+    content:"";
+    position: absolute;
+    background: url(../img/icons/flower-half-top.png) no-repeat top;
+    width: 100%;
+    height: 100%;
+}
+.classes-about h2{
+    display: none;
+}
+.classes__wrap{
+    margin: 12rem 0;
+}
+/*#endregion classes-about*/
+/*#region features*/
+section.features {
+    background-color: #dfe5f2;
+    color: var(--accent);
+    padding: 13rem 0;
+}
+
+.features-top {
+    max-width: 58rem;
+    margin: 0 auto;
+    text-align: center;
+}
+.features-top p {
+    margin: 2rem 0;
+}
+.features-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-bottom-item {
+    text-align: center;
+    margin-top: 10rem;
+}
+
+p.count {
+    font-size: 4.2rem;
+}
+/*#endregion features*/
+@media screen and (max-width: 1226px) {
+    section.whoWe {
+        padding: 0 4%;
+    }
+    .whoWe__wrap img {
+        width: 85%;
+    }
+    section.features {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+}
+@media screen and (max-width: 976px) {
+    .whoWe__wrap {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .whoWe__wrap figure {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 633px) {
+    .comment-banner__wrap p {
+        padding: 3%;
+    }
+    p.count {
+        font-size: 3.2rem;
+    }
+    .features-bottom {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .features-bottom-item + .features-bottom-item {
+        padding-left: 1.5rem;
+    }
+    .comment-banner p {
+        font-size: 1.6rem;
+    }
+    .features-bottom-item {
+        margin-top: 2rem;
+    }
+}
+@media screen and (max-width: 431px) {
+    
+}
+@media screen and (max-width: 579px) {
+    
+}

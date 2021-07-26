@@ -1,0 +1,436 @@
+/* #region everyone */
+
+section.everyone {
+    margin-top: -9rem;
+    padding-bottom: 6rem;
+    padding-top: 6rem;
+}
+
+.everyone__wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.everyone-left {
+    padding-right: 2.5rem;
+    max-width: 58rem;
+    margin-top: 10rem;
+}
+.everyone-left iframe {
+    width: 56rem;
+    height: 31.5rem;
+}
+
+.everyone-right {
+    padding-left: 2.5rem;
+}
+
+.everyone-left p {
+    margin-bottom: 5rem;
+}
+
+.everyone-item {
+    display: flex;
+    position: relative;
+    margin-bottom: 5.6rem;
+}
+
+.everyone-icon {
+    margin-right: 2.8rem;
+    width: 6.8rem;
+    height: 6.8rem;
+    border: 2px solid var(--accent);
+    border-radius: 50%;
+    position: absolute;
+    left: -15%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.everyone-icon img {
+    display: block;
+    margin: 0 auto;
+    transform: translateY(46%);
+}
+
+.everyone-info {
+    max-width: 38rem;
+}
+/* #endregion everyone */
+
+/*#region classes*/
+.classes{
+    background: url(../img/classes.jpg) center no-repeat;
+    position: relative;
+    padding-bottom: 11rem;
+}
+.classes:before{
+    position: absolute;
+    content: "";
+    background: url(../img/icons/flower-half-small.png) no-repeat;
+    height: 6.5rem;
+    width: 13rem;
+    left: 50%;
+    top: 0.5rem;
+    transform: translateX(-43%);
+}
+.classes h2 {
+    padding-top: 10rem;
+    margin-bottom: 7rem;
+    text-align: center;
+}
+
+
+button.class__slider-btnprev, button.class__slider-btnnext {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+button.class__slider-btnprev {
+    position: absolute;
+    left: -4rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+button.class__slider-btnnext{
+    right: -4rem;
+}
+.class__slider-btn img {
+    height: 1.8rem;
+    cursor: pointer;
+}
+/*#endregion classes*/
+/* #region start */
+
+.start__inner {
+    display: flex;
+    justify-content: space-between;
+    min-height: 60rem;
+}
+
+.start__inner-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.start__inner figure {
+    margin-bottom: 3rem;
+}
+.start__inner img {
+    width: 100%;
+    display: block;
+
+}
+/* #endregion start */
+/*#region renewal*/
+section.renewal {
+    background-color: #f8f7fc;
+    margin-top: 10rem;
+}
+.renewal__wrap{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 68rem;
+    justify-content: center;
+    padding: 0 5%;
+
+}
+.renewal__wrap:before{
+    position: absolute;
+    content: "";
+    background: url(../img/reneval.png) no-repeat;
+    height: 110%;
+    width: 25%;
+    left: 66%;
+    top: -10%;
+}
+.renewal__inner{
+    max-width: 48rem;
+    color: var(--accent);
+}
+.renewal__inner h3 {
+    color: var(--accent);
+}
+button.btn.renewal {
+    font-size: 1.2rem;
+    padding: 1.5rem 4rem;
+    border-radius: 50px;
+    margin-top: 4.7rem;
+}
+/*#endregion renewal*/
+/*#region labels*/
+.partners {
+    display: none;
+}
+.label__wrap{
+    display: flex;
+    justify-content: space-between;
+    min-height: 17rem;
+    align-items: center;
+}
+.label__wrap figure img{
+    display: block;
+}
+/*#endregion labels*/
+/*#region main-media*/
+
+@media screen and (max-width: 1300px) {
+    .classes{
+        background: none;
+        background-color: #dfe5f2;
+    }
+    .classes:before {
+        top: 0;
+    }
+    button.class__slider-btnprev {
+        left: -1rem;
+    }
+    button.class__slider-btnnext {
+        right: -1rem;
+    }
+}
+@media screen and (max-width: 1245px) {
+    ul.slick-dots {
+        margin: 2rem auto;
+    }
+    .slick-dots li {
+        display: inline-block;
+        padding: 0 0.5rem;
+    }    
+    .slick-dots li button {
+        border: 1px solid var(--accent);
+        border-radius: 50%;
+        font-size: 0;
+        height: 11px;
+        width: 11px;
+        background-color: transparent;
+    }
+    li.slick-active button{
+        background-color: var(--accent);
+    }
+    .start__inner {
+        margin: 0 2rem;
+    }
+    .label__wrap {
+        padding: 0 5%;
+    }
+}
+@media screen and (max-width: 1210px) {
+
+    .everyone__wrap {
+        justify-content: center;
+    }
+    .everyone-left {
+        margin-right: 8rem;
+    }
+    .start__inner-bottom figure{
+        width: 80%;
+    }
+    .start__inner figure {
+        margin: 0 auto;
+        margin-bottom: 3rem;
+    }
+    .start__inner {
+        flex-wrap: wrap;
+    }
+    .start__inner-left {
+        width: 100%;
+    }
+    .start__inner-top {
+        justify-content: space-evenly;
+    }
+    .start__inner-right {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .everyone__wrap {
+        flex-wrap: wrap;
+        padding: 0 3rem;
+    }
+    .everyone-left {
+        width: 52%;
+        text-align: center;
+        padding: 0;
+        margin-bottom: 5rem;
+    }
+    .everyone-info {
+        max-width: 33rem;
+    }
+    .everyone-left iframe {
+        width: 51rem;
+        height: 28rem;
+    }
+    .renewal__wrap:before {
+        width: 32%;
+        left: 64%;
+    }
+}
+@media screen and (max-width: 1029px) {
+    .everyone__wrap {
+        padding: 0 1rem;
+    }
+    .everyone-left {
+        width: 100%;
+        margin: 0;
+    }
+    .everyone-right{
+        padding-left: 10.5rem;
+        margin-top: 2rem;
+    }
+    .everyone-info {
+        max-width: 53rem;
+    }
+}
+@media screen and (max-width: 869px) {
+    .start__inner-top figure,
+    .start__inner-right figure {
+        width: 40%;
+    }
+    .renewal__wrap {
+        justify-content: start;
+        padding: 5% 5% 0;
+        min-height: 47rem;
+    }
+    .renewal__wrap:before {
+        width: 40%;
+        left: 60%;
+        background-size: 70%;
+    }
+    .renewal__inner {
+        max-width: 40rem;
+    }
+}
+@media screen and (max-width: 673px) {
+    .classes-item_wrap {
+        border: 1px solid var(--accent);
+        border-radius: 5px;
+    }
+    .start__inner-right,
+    .start__inner-top {
+        flex-wrap: wrap;
+    }
+    .start__inner-top figure,
+    .start__inner-right figure {
+        width: 90%;
+    }
+    .start__inner-bottom{
+        display: none;
+    }
+    .renewal__inner {
+        max-width: 32rem;
+    }
+    .renewal__wrap {
+        min-height: 37rem;
+    }
+    .renewal__wrap:before {
+        left: 61%;
+        width: 39%;
+    }
+    .renewal__inner h2 {
+        font-size: 3rem;
+        margin-bottom: 3rem;
+    }
+    .label__wrap{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 552px) {
+    h2{
+        font-size: 3.2rem;
+    }
+    h3{
+        font-size: 2.5rem;
+    }
+    .classes h2 {
+        margin-bottom: 2rem;
+        padding-top: 7rem;
+    }
+    section.everyone {
+        margin-top: 0;
+        padding-top: 2rem;
+    }
+    .everyone-left{
+        margin-bottom: 2rem;
+    }
+    .everyone-left iframe {
+        width: 40rem;
+        height: 22rem;
+    }
+    button.start {
+        padding: 1.7rem 3rem;
+        font-size: 1.2rem;
+    }
+    .star__wrap {
+        margin: 0 5%;
+    }
+    .renewal__wrap {
+        min-height: 31rem;
+    }
+    .renewal__inner {
+        max-width: 25rem;
+    }
+    .renewal__inner h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    .label__wrap figure{
+        margin: 2rem;
+    }
+    .label__wrap figure:last-of-type{
+        margin-right:0;
+    }
+}
+@media screen and (max-width: 452px) {
+    .everyone-left iframe {
+        display: none;
+    }
+    .everyone-right {
+        padding: 0;
+    }
+    .everyone-item {
+        flex-wrap: wrap;
+        margin-bottom: 1.6rem;
+    }
+    .everyone-icon {
+        position: inherit;
+        margin: 0 auto;
+        transform: none;
+        top: 0;
+        left: 0;
+    }
+    .everyone-info h4{
+        text-align: center;
+        margin: 2rem 0;
+    }
+    .renewal__inner{
+        display: block;
+        max-width: 100%;
+        text-align: center;
+
+    }
+    .renewal__wrap{
+        display: block;
+    }
+    .renewal__wrap:before{
+        height: 0;
+        display: block;
+    }
+}
+
+
+/*#endregion main-media*/
+
+
+
+
+
+
+
+
+
+
+

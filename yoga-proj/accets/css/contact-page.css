@@ -1,0 +1,161 @@
+/*#region info*/
+
+.info h2{
+    display: none;
+}
+.info__wrap{
+    position: relative;
+}
+.info__wrap::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: url(../img/icons/flower-half-top.png) no-repeat top;
+    top: 0;
+    right: -7px;
+}
+table {
+    margin: 5rem auto;
+    border: 3px solid var(--accent);
+    border-collapse: collapse;
+    
+}
+
+
+th {
+    border: 3px solid var(--accent);
+    color: var(--accent);
+    text-decoration: u;
+    text-transform: uppercase;
+    padding: 1% 2%;
+}
+
+tr.end-section {
+    border-bottom: 3px solid var(--accent);
+}
+
+td.address {
+    border-right: 3px solid var(--accent);
+    width: 40%;
+    padding: 1%;
+    font-weight: 600;
+    color: var(--main);
+}
+td.map {
+    border-left: 3px solid var(--accent);
+    text-align: center;
+}
+.map iframe {
+    width: 100%;
+    height: 28rem;
+}
+td {
+    padding: 1%;
+    text-align: center;
+    color: var(--accent);
+}
+.info__item {
+    display: none;
+}
+/*#endregion info*/
+
+/*#region form*/
+.form-map__wrap {
+    display: flex;
+}
+.form__wrap h3{
+    display: none;
+}
+
+form.contact-form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 60%;
+    margin: 2% auto;
+}
+
+.contact-form input {
+    width: 48%;
+    padding: 2% 1%;
+    margin-bottom: 5%;
+    border-radius: 7px;
+    border: 1px solid #eeeeee;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 7px;
+    border: 1px solid #eeeeee;
+    padding: 2% 1%;
+    min-height: 20rem;
+    margin-bottom: 5%;
+}
+
+.contact-form input::placeholder, textarea::placeholder {color: #999999;}
+
+button.form-btn {
+    width: 100%;
+    padding: 3%;
+    border-radius: 7px;
+}
+/*#endregion form*/
+@media screen and (max-width: 1218px) {
+    section.info {
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+}
+@media screen and (max-width: 1010px) {
+    td.address {
+        width: 30%;
+    }
+}
+@media screen and (max-width: 835px) {
+    
+    td.map {
+        width: 40%;
+    }
+    .map iframe {
+        height: 22rem;
+    }
+}
+@media screen and (max-width: 654px) {
+    table {
+        display: none;
+    }
+    
+    .info__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: c;
+        margin: 20% 0;
+    }
+    
+    .days {
+        margin: 3% 0;
+    }
+    
+    .info__item iframe {
+        height: 30rem;
+    }
+    .info__title {
+        font-size: 1.8rem;
+    }
+    form.contact-form {
+        max-width: 95%;
+    }
+    .contact-form input {
+        width: 49%;
+    }
+}
+@media screen and (max-width: 475px) {
+    .contact-form input {
+        width: 100%;
+    }
+    .contact-form input::placeholder, textarea::placeholder {
+        text-align: center;
+    }
+}
