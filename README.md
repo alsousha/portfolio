@@ -23,7 +23,7 @@ Since 2017 I have been studying full stack.
 #### [Felix](http://a153361-tmp.s882.upress.link/) - Wordpress
 <img src="img/1.jpg" alt="drawing" width="400"/>
 
-#### [Moshehaim](moshehaimtours.co.il) - Wordpress
+#### [Moshehaim](https://moshehaimtours.co.il/) - Wordpress
 <img src="img/2.jpg" alt="drawing" width="400"/>
 
 #### [Scaspi](https://scaspi.com/) - Wordpress
@@ -33,15 +33,15 @@ Since 2017 I have been studying full stack.
 <img src="img/4.jpg" alt="drawing" width="400"/>
 
 #### [Law](http://a148887-tmp.s882.upress.link/) - Wordpress
-<img src="img/5.jpg" alt="drawing" width="400"/>
+<img src="img/6.jpg" alt="drawing" width="400"/>
 
 #### [Bigsurprise](http://bigsurprise.co.il/) - Wordpress
-<img src="img/6.jpg" alt="drawing" width="400"/>
+<img src="img/5.jpg" alt="drawing" width="400"/>
 
 #### [Wesense](http://www.wesense.co.il/) - Wordpress (He, En)
 <img src="img/7.jpg" alt="drawing" width="400"/>
 
-#### [Kennel](kennel-select.com) - Wordpress, Woocommerce
+#### [Kennel](https://kennel-select.com/) - Wordpress, Woocommerce
 <img src="img/8.JPG" alt="drawing" width="400"/>
 
 #### [InfoGuard](http://a140687-tmp.s679.upress.link/) - Wordpress
