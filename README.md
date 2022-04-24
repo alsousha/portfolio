@@ -16,19 +16,36 @@ Since 2017 I have been studying full stack.
 •	**HTML/CSS** (advanced)
 •	**Git**
 • **Wordpress**
+• **Android studio**
 
 
 ### My works
+#### [Felix](http://a153361-tmp.s882.upress.link/) - Wordpress
+<img src="img/1.jpg" alt="drawing" width="400"/>
 
-1. [Kallyas](https://alsu.co.il/sites/kallyas/index.html) - static page with HTML/CSS/JS; frontend
-1. [Brands](https://alsu.co.il/sites/brand/index.html), [catalog](https://alsu.co.il/sites/brand/product.html), [single product](https://alsu.co.il/sites/brand/single.html) - static pageы with HTML/CSS/JS; frontend
-1. [Gidro](https://alsu.co.il/sites/gidrotsikly/index.html), [catalog](https://alsu.co.il/sites/gidrotsikly/catalog.html), [single product](https://alsu.co.il/sites/gidrotsikly/product.html) - static pages with HTML/SCC/JQuery; frontend
-2. [T-shirt](https://alsu.co.il/sites/t_shirt/index.html) static page with HTML/CSS/JS; frontend
-3. [Pizza](https://alsu.co.il/sites/pizza-time_html/index.html) static page with HTML/CSS/JS; frontend
-4. [Yoga](https://alsu.co.il/sites/yoga-proj/index.html), [about](https://alsu.co.il/sites/yoga-proj/about.html), [classes](https://alsu.co.il/sites/yoga-proj/classes.html), [contact](https://alsu.co.il/sites/yoga-proj/contact.html) static page with HTML/CSS/JS; frontend
-5. [Gidro](https://alsu.co.il/gidro/), [catalog](https://alsu.co.il/gidro/product-categories/dvigateli/), [single product](https://alsu.co.il/gidro/products/dvigatel-8/) - Wordpress, HTML/CSS/JQuery
-6. [Pizza](https://alsu.co.il/pizza-time/) - Wordpress, HTML/CSS/JS
-7. [Sport](https://alsu.co.il/sport/) - Wordpress, HTML/CSS/JS
+#### [Moshehaim](moshehaimtours.co.il) - Wordpress
+<img src="img/2.jpg" alt="drawing" width="400"/>
+
+#### [Scaspi](https://scaspi.com/) - Wordpress
+<img src="img/3.jpg" alt="drawing" width="400"/>
+
+#### [Nika](https://antidrugs.co.il/) - Wordpress
+<img src="img/4.jpg" alt="drawing" width="400"/>
+
+#### [Law](http://a148887-tmp.s882.upress.link/) - Wordpress
+<img src="img/5.jpg" alt="drawing" width="400"/>
+
+#### [Bigsurprise](http://bigsurprise.co.il/) - Wordpress
+<img src="img/6.jpg" alt="drawing" width="400"/>
+
+#### [Wesense](http://www.wesense.co.il/) - Wordpress (He, En)
+<img src="img/7.jpg" alt="drawing" width="400"/>
+
+#### [Kennel](kennel-select.com) - Wordpress, Woocommerce
+<img src="img/8.JPG" alt="drawing" width="400"/>
+
+#### [InfoGuard](http://a140687-tmp.s679.upress.link/) - Wordpress
+<img src="img/9.JPG" alt="drawing" width="400"/>
 
 ### My contacts
 * tel: +972 53 954-0139
