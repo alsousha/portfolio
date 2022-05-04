@@ -32,7 +32,7 @@ Since 2017 I have been studying full stack.
 #### [Nika](https://antidrugs.co.il/) - Wordpress
 <img src="img/4.jpg" alt="drawing" width="400"/>
 
-#### [Law](http://a148887-tmp.s882.upress.link/) - Wordpress
+#### [Law](https://a-law.co.il/) - Wordpress
 <img src="img/6.jpg" alt="drawing" width="400"/>
 
 #### [Bigsurprise](http://bigsurprise.co.il/) - Wordpress
