@@ -20,7 +20,7 @@ Since 2017 I have been studying full stack.
 
 
 ### My works
-#### [Felix](http://a153361-tmp.s882.upress.link/) - Wordpress
+#### [Felix](http://fenixkirur.co.il/) - Wordpress
 <img src="img/1.jpg" alt="drawing" width="400"/>
 
 #### [Moshehaim](https://moshehaimtours.co.il/) - Wordpress
