@@ -47,6 +47,12 @@ Since 2017 I have been studying full stack.
 #### [InfoGuard](http://a140687-tmp.s679.upress.link/) - Wordpress
 <img src="img/9.JPG" alt="drawing" width="400"/>
 
+#### [Lofts](http://merkazhaloftim.co.il/) - Wordpress
+<img src="img/10.JPG" alt="drawing" width="400"/>
+
+#### [Savanim](http://a156330-tmp.s679.upress.link/) - Wordpress
+<img src="img/11.JPG" alt="drawing" width="400"/>
+
 ### My contacts
 * tel: +972 53 954-0139
 * alsousha21@gmail.com
