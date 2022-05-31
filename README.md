@@ -20,8 +20,7 @@ Since 2017 I have been studying full stack.
 
 
 ### My works
-#### [Felix](http://fenixkirur.co.il/) - Wordpress
-<img src="img/1.jpg" alt="drawing" width="400"/>
+
 
 #### [Moshehaim](https://moshehaimtours.co.il/) - Wordpress
 <img src="img/2.jpg" alt="drawing" width="400"/>
@@ -37,6 +36,9 @@ Since 2017 I have been studying full stack.
 
 #### [Bigsurprise](http://bigsurprise.co.il/) - Wordpress
 <img src="img/5.jpg" alt="drawing" width="400"/>
+
+#### [Felix](http://fenixkirur.co.il/) - Wordpress
+<img src="img/1.jpg" alt="drawing" width="400"/>
 
 #### [Wesense](http://www.wesense.co.il/) - Wordpress (He, En)
 <img src="img/7.jpg" alt="drawing" width="400"/>
