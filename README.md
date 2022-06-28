@@ -22,7 +22,7 @@ Since 2017 I have been studying full stack.
 ### My works
 
 [comment]: #### [Moshehaim](https://moshehaimtours.co.il/) - Wordpress
-[comment]: <img src="img/2.jpg" alt="drawing" width="400"/>
+[comment]: <> <img src="img/2.jpg" alt="drawing" width="400"/>
 
 #### [Scaspi](https://scaspi.com/) - Wordpress
 <img src="img/3.jpg" alt="drawing" width="400"/>
